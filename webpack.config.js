@@ -58,7 +58,8 @@ module.exports = env => {
     // https://webpack.js.org/configuration/output#output-filename
     output: {
       path: PATH_DIST,
-      filename: 'js/[name].[hash].js',
+      // filename: 'js/[name].[hash].js',
+      filename: 'js/bundle.js',
     },
 
     // Determine how the different types of modules will be treated.
